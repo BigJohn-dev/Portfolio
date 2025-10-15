@@ -1,4 +1,6 @@
 import "./project.css";
+import Link from "next/link"
+
 
 export default function Projects() {
     return (
@@ -7,23 +9,23 @@ export default function Projects() {
         <div className="project-grid">
             <div className="project-card">
             <h2>Portfolio Website</h2>
-            <p>A modern personal portfolio built with Next.js and CSS.</p>
-            <a href="#" target="_blank">View Project</a>
+            <p>A personal portfolio built with Next.js and CSS.</p>
+            <Link href="#" target="_blank">View Project</Link>
             </div>
 
             <div className="project-card">
             <h2>Wallet System</h2>
-            <p>A digital wallet system that securely stores users' payment information,
+            <p>A digital wallet system that securely stores users payment information,
                 facilitates transactions, and offers features like budgeting tools,
                 transaction history, and rewards tracking.</p>
-            <a href="#" target="_blank">View Project</a>
+            <Link href="#" target="_blank">View Project</Link>
             </div>
 
             <div className="project-card">
             <h2>ToDo Task Manager</h2>
             <p>A smart to-do list application that helps users organize tasks with features like priority setting,
                 deadline reminders, and collaborative sharing for enhanced productivity.</p>
-            <a href="#" target="_blank">View Project</a>
+            <Link href="#" target="_blank">View Project</Link>
             </div>
         </div>
         </section>
