@@ -1,0 +1,41 @@
+/* home.css */
+
+.hero {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
+    color: #f8fafc;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    color: #94a3b8;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hero a {
+    display: inline-block;
+    background-color: #3b82f6;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.hero a:hover {
+    background-color: #2563eb;
+}
+
+.social-links a {
+    margin-left: 50px;
+    justify-content: space-between;
+}

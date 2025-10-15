@@ -1,0 +1,134 @@
+/* ========== ABOUT SECTION ========== */
+.about {
+  margin-top: 4rem;
+  padding: 2rem 1rem;
+  animation: fadeIn 0.8s ease-in-out;
+  text-align: center;
+}
+
+/* Header Layout (Image + Text) */
+.about-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  text-align: left;
+}
+
+/* Profile Picture */
+.about-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #3b82f6;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
+}
+
+/* Text Block */
+.about-text {
+  max-width: 600px;
+}
+
+.about h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #f8fafc;
+}
+
+.about p {
+  color: #cbd5e1;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.role {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #60a5fa;
+}
+
+.company {
+  color: #94a3b8;
+  font-weight: 500;
+  margin-top: 0.3rem;
+}
+
+/* ========== SKILLS SECTION ========== */
+.skills-section {
+  margin-top: 3rem;
+}
+
+.skills-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #f8fafc;
+}
+
+.about ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.about ul li {
+  background-color: #1e293b;
+  color: #f8fafc;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  font-weight: 500;
+  text-align: center;
+}
+
+.about ul li:hover {
+  transform: translateY(-4px);
+  border-color: #3b82f6;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
+}
+
+/* ========== RESPONSIVE DESIGN ========== */
+@media (max-width: 768px) {
+  .about-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about h1 {
+    font-size: 2rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+  }
+
+  .about-pic {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* ========== ANIMATION ========== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
