@@ -27,6 +27,13 @@ export default function Projects() {
                 deadline reminders, and collaborative sharing for enhanced productivity.</p>
             <Link href="#" target="_blank">View Project</Link>
             </div>
+
+            <div className="project-card">
+            <h2>Simple Calculator</h2>
+            <p>A straightforward calculator application that performs basic arithmetic operations like addition, subtraction, multiplication, and division, 
+                offering users a quick and easy way to perform calculations.</p>
+            <Link href="https://simple-calculator-ten-orcin.vercel.app/" target="_blank">View Project</Link>
+            </div>
         </div>
         </section>
     );

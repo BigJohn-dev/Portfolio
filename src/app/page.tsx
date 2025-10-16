@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <Image src="WhatsApp Image 2025-09-24 at 04.07.30_b7f5fabf.jpg" alt="Imeobong" className="profile-pic" width={200} height={200}/>
+        <Image src="/imeobong.jpg" alt="Imeobong" className="profile-pic" width={200} height={200}/>
         <h1>Hi, I am Imeobong 👋</h1>
         <p>
           I am an aspiring software engineer with hands-on experience in full-stack development,
