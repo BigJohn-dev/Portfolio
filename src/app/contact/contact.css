@@ -125,16 +125,16 @@ button:active {
 
 /* Extra-small screens (max-width: 400px) */
 @media (max-width: 400px) {
-  .contact h1 {
-    font-size: 1.7rem;
-  }
+    .contact h1 {
+        font-size: 1.7rem;
+    }
 
-  .contact p {
-    font-size: 0.9rem;
-  }
+    .contact p {
+        font-size: 0.9rem;
+    }
 
-  button {
-    width: 100%;
-    font-size: 0.85rem;
-  }
+    button {
+        width: 100%;
+        font-size: 0.85rem;
+    }
 }

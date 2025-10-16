@@ -10,7 +10,7 @@ export default function Projects() {
             <div className="project-card">
             <h2>Portfolio Website</h2>
             <p>A personal portfolio built with Next.js and CSS.</p>
-            <Link href="#" target="_blank">View Project</Link>
+            <Link href="https://portfolio-two-nu-86.vercel.app/" target="_blank">View Project</Link>
             </div>
 
             <div className="project-card">
