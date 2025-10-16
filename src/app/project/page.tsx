@@ -34,6 +34,12 @@ export default function Projects() {
                 offering users a quick and easy way to perform calculations.</p>
             <Link href="https://simple-calculator-ten-orcin.vercel.app/" target="_blank">View Project</Link>
             </div>
+
+            <div className="project-card">
+            <h2>Movie Explorer</h2>
+            <p>A user-friendly application that allows users to browse, search, and discover movies, providing detailed information, ratings, and reviews to enhance their cinematic experience.</p>
+            <Link href="https://movie-explorer-website-with-react.vercel.app/" target="_blank">View Project</Link>
+            </div>
         </div>
         </section>
     );
