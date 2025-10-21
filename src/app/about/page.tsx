@@ -5,7 +5,7 @@ export default function About() {
         <section className="about container">
         <div className="about-header">
             <img
-            src="WhatsApp Image 2025-09-24 at 04.07.30_b7f5fabf.jpg"
+            src="imeobong.jpg"
             alt="Imeobong John"
             className="about-pic"
             />
