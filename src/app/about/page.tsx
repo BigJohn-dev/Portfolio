@@ -1,7 +1,8 @@
 "use client"
 
 import { useState, useEffect } from 'react';
-import { Github, Linkedin, Mail, X, Facebook, Instagram, MapPin, Code, Briefcase } from 'lucide-react';
+import { Github, Linkedin, X, Facebook, Instagram, MapPin, Code, Briefcase } from 'lucide-react';
+import Image from 'next/image';
 import './about.css';
 
 export default function About() {
@@ -38,7 +39,7 @@ export default function About() {
                 <div className="about-header-card">
                     <div className="about-content">
                         <div className="about-image-wrapper">
-                            <img
+                            <Image
                                 src="imeobong.jpg"
                                 alt="Imeobong John"
                                 className="about-pic"
@@ -59,7 +60,7 @@ export default function About() {
                             </div>
                             
                             <p className="about-bio">
-                                I'm a passionate software engineer who transforms ideas into elegant, efficient solutions. 
+                                I am a passionate software engineer who transforms ideas into elegant, efficient solutions. 
                                 With a strong foundation in full-stack development, I specialize in building scalable web applications 
                                 that not only meet technical requirements but create delightful user experiences.
                             </p>
@@ -125,7 +126,7 @@ export default function About() {
 
                 {/* Fun Facts Section */}
                 <div className="fun-facts-section">
-                    <h2 className="section-title">When I'm Not Coding</h2>
+                    <h2 className="section-title">When I am Not Coding</h2>
                     <div className="fun-facts-list">
                         {funFacts.map((fact, index) => (
                             <div key={index} className="fun-fact">
