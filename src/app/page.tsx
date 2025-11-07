@@ -19,13 +19,6 @@ export default function Home() {
           <a href="/project" className="btn">View My Projects</a>
           <a href="/contact" className="btn">Contact Me</a>
         </div>
-        <div className="social-links">
-          <a href="https://www.linkedin.com/in/imeobong-john-80231035b/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="https://github.com/BigJohn-dev" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://www.facebook.com/John.Imeobong" target="_blank" rel="noopener noreferrer">Facebook</a>
-          <a href="https://x.com/D_Big_John" target="_blank" rel="noopener noreferrer">X</a>
-          <a href="https://www.instagram.com/im3_0_bong/" target="_blank" rel="noopener noreferrer">Instagram</a>
-        </div>
       </div>
     </section>
   );

@@ -12,7 +12,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <header className="header">
           <nav className="navbar container">
-
             <h1 className="logo">Imeobong John Abasiediedu</h1>
             <div className="nav-links">
               <Link href="/">Home</Link>
