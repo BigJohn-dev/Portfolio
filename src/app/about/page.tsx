@@ -40,9 +40,11 @@ export default function About() {
                     <div className="about-content">
                         <div className="about-image-wrapper">
                             <Image
-                                src="imeobong.jpg"
+                                src="/imeobong.jpg"
                                 alt="Imeobong John"
                                 className="about-pic"
+                                width={150}
+                                height={150}
                             />
                         </div>
                         
