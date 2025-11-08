@@ -60,7 +60,7 @@ export default function About() {
                             </div>
                             
                             <p className="about-bio">
-                                I am a passionate software engineer who transforms ideas into elegant, efficient solutions. 
+                                I&apos;m a passionate software engineer who transforms ideas into elegant, efficient solutions. 
                                 With a strong foundation in full-stack development, I specialize in building scalable web applications 
                                 that not only meet technical requirements but create delightful user experiences.
                             </p>
@@ -137,7 +137,7 @@ export default function About() {
                     
                     <div className="quote">
                         <p>
-                            "Code is like humor. When you have to explain it, it's bad." - Cory House
+                            &quot;Code is like humor. When you have to explain it, it&apos;s bad.&quot; - Cory House
                         </p>
                     </div>
                 </div>
