@@ -6,7 +6,7 @@ export default function Home() {
     <section className="hero">
       <div className="hero-content">
         <Image src="/imeobong.jpg" alt="Imeobong" className="profile-pic" width={200} height={200}/>
-        <h1>Hi, I am Imeobong 👋</h1>
+        <h1>Hi, I&apos;m Imeobong</h1>
         <p>
           I am an aspiring software engineer with hands-on experience in full-stack development,
           object-oriented programming, and database design. Currently,
